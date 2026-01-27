@@ -67,7 +67,7 @@
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JWookLe&show_icons=true&theme=tokyonight&hide_title=true" height="165" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=JWookLe&show_icons=true&theme=tokyonight&hide_title=true&hide_rank=true" height="165" alt="stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JWookLe&layout=compact&theme=tokyonight" height="165" alt="top langs" />
 </p>
 
