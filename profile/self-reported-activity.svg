@@ -35,7 +35,7 @@
   <rect class="corner" x="922" y="182" width="8" height="8" />
 
   <text class="title" x="44" y="48">ACTIVITY MAP</text>
-  <text class="subtitle" x="44" y="68">Self-reported activity (not GitHub contributions)</text>
+  <text class="subtitle" x="44" y="68">Self-reported activity</text>
 
   <text class="hud" x="760" y="48">LV 01</text>
   <text class="hud" x="760" y="68">PRESS START</text>
