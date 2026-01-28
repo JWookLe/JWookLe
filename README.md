@@ -51,6 +51,18 @@ Backend · Reliability · Performance · Automation · Architecture
 
 ---
 
+## 🧰 TOOLKIT
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111111" alt="Linux" />
+</p>
+
+---
+
 ## 🏆 ACHIEVEMENTS
 - SW 아카데미 금상(2위)  
 - 정보처리기사  
@@ -73,4 +85,8 @@ Backend · Reliability · Performance · Automation · Architecture
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=JWookLe&theme=darkhub&row=1&column=6" alt="trophy" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/JWookLe/JWookLe/output/github-contribution-grid-snake.svg" alt="snake" />
 </p>
