@@ -20,14 +20,13 @@
 
 ---
 
-## 🧭 STATUS
-| STAT | VALUE |
-| --- | --- |
-| LV | Junior Backend Engineer |
-| HP (Reliability) | ████████░░ |
-| MP (Performance) | ████████░░ |
-| INT (Architecture) | ███████░░░ |
-| DEX (Automation) | ███████░░░ |
+## 🎯 FOCUS
+- Performance Engineering  
+- Reliability & Data Consistency  
+- Automation & Observability  
+
+## 🧩 ROLE TAGS
+Backend · Reliability · Performance · Automation · Architecture
 
 ---
 
