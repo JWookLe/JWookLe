@@ -85,7 +85,7 @@ Backend · Reliability · Performance · Automation · Architecture
 
 ---
 
-## 📈 SELF-REPORTED ACTIVITY
+## 🎮 ACTIVITY MAP
 <p align="center">
   <img src="profile/self-reported-activity.svg" width="900" alt="Self-reported activity timeline" />
 </p>

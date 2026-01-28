@@ -1,25 +1,44 @@
 <svg width="960" height="220" viewBox="0 0 960 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1f2937" stroke-width="1"/>
+    </pattern>
     <style>
-      .bg { fill: #0f172a; }
-      .panel { fill: #111827; stroke: #1f2937; stroke-width: 1; }
-      .title { fill: #e5e7eb; font: 700 18px "Segoe UI", Arial, sans-serif; }
-      .subtitle { fill: #9ca3af; font: 12px "Segoe UI", Arial, sans-serif; }
+      .bg { fill: url(#bgGradient); }
+      .grid { fill: url(#gridPattern); opacity: 0.35; }
+      .panel { fill: #0f172a; stroke: #1f2937; stroke-width: 1.5; }
+      .title { fill: #e5e7eb; font: 700 20px "Consolas", "Courier New", monospace; letter-spacing: 1px; }
+      .subtitle { fill: #9ca3af; font: 11px "Consolas", "Courier New", monospace; }
+      .hud { fill: #38bdf8; font: 700 12px "Consolas", "Courier New", monospace; }
       .axis { stroke: #334155; stroke-width: 2; }
       .tick { stroke: #334155; stroke-width: 1; }
-      .label { fill: #cbd5f5; font: 12px "Segoe UI", Arial, sans-serif; }
+      .label { fill: #cbd5f5; font: 12px "Consolas", "Courier New", monospace; }
       .active { fill: #38bdf8; }
       .inactive { fill: #1f2937; }
-      .legend { fill: #e5e7eb; font: 12px "Segoe UI", Arial, sans-serif; }
-      .note { fill: #94a3b8; font: 11px "Segoe UI", Arial, sans-serif; }
+      .legend { fill: #e5e7eb; font: 12px "Consolas", "Courier New", monospace; }
+      .note { fill: #94a3b8; font: 11px "Consolas", "Courier New", monospace; }
+      .corner { fill: #22d3ee; }
     </style>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="960" height="220" rx="16" />
-  <rect class="panel" x="20" y="18" width="920" height="184" rx="12" />
+  <rect class="bg" x="0" y="0" width="960" height="220" rx="14" />
+  <rect class="grid" x="0" y="0" width="960" height="220" rx="14" />
 
-  <text class="title" x="44" y="48">Activity Timeline</text>
+  <rect class="panel" x="18" y="16" width="924" height="188" rx="10" />
+  <rect class="corner" x="30" y="28" width="8" height="8" />
+  <rect class="corner" x="922" y="28" width="8" height="8" />
+  <rect class="corner" x="30" y="182" width="8" height="8" />
+  <rect class="corner" x="922" y="182" width="8" height="8" />
+
+  <text class="title" x="44" y="48">ACTIVITY MAP</text>
   <text class="subtitle" x="44" y="68">Self-reported activity (not GitHub contributions)</text>
+
+  <text class="hud" x="760" y="48">LV 01</text>
+  <text class="hud" x="760" y="68">PRESS START</text>
 
   <line class="axis" x1="110" y1="120" x2="870" y2="120" />
 
@@ -35,18 +54,18 @@
   <line class="tick" x1="830" y1="112" x2="830" y2="128" />
   <text class="label" x="830" y="148" text-anchor="middle">2026-01</text>
 
-  <rect class="inactive" x="110" y="100" width="760" height="40" rx="8" />
+  <rect class="inactive" x="110" y="100" width="760" height="40" rx="4" />
 
-  <rect class="active" x="110" y="100" width="240" height="40" rx="8" />
-  <rect class="active" x="430" y="100" width="160" height="40" rx="8" />
-  <rect class="active" x="590" y="100" width="240" height="40" rx="8" />
-  <rect class="active" x="830" y="100" width="40" height="40" rx="8" />
+  <rect class="active" x="110" y="100" width="240" height="40" rx="4" />
+  <rect class="active" x="430" y="100" width="160" height="40" rx="4" />
+  <rect class="active" x="590" y="100" width="240" height="40" rx="4" />
+  <rect class="active" x="830" y="100" width="40" height="40" rx="4" />
 
   <polygon points="870,120 894,108 894,132" fill="#38bdf8" />
-  <text class="note" x="900" y="124">ongoing</text>
+  <text class="note" x="900" y="124">ONGOING</text>
 
-  <rect class="active" x="110" y="170" width="14" height="14" rx="3" />
-  <text class="legend" x="132" y="182">Active period</text>
-  <rect class="inactive" x="240" y="170" width="14" height="14" rx="3" />
-  <text class="legend" x="262" y="182">Inactive period</text>
+  <rect class="active" x="110" y="170" width="14" height="14" rx="2" />
+  <text class="legend" x="132" y="182">ACTIVE</text>
+  <rect class="inactive" x="220" y="170" width="14" height="14" rx="2" />
+  <text class="legend" x="242" y="182">INACTIVE</text>
 </svg>
