@@ -36,11 +36,11 @@ Backend · Reliability · Performance · Automation · Architecture
 - Transactional Outbox + Circuit Breaker 적용으로 신뢰성 확보  
 - DB Sharding으로 동시성 경합 제거 및 장애 안정화  
 
-**EmotionSync (감정 기반 추천/소셜 앱)**  
-- Android ↔ Spring ↔ Flask 통합 아키텍처 설계  
-- JWT 보안 저장 및 만료/갱신 전략 수립  
-- WebSocket 안정화 로직으로 연결 불안정 문제 해결  
-
+**EmotionSync | 감정 분석 기반 콘텐츠 추천 및 소셜 앱 (2025.03 - 2025.06)**  
+- 아이디어 기획 -> DB 설계 -> API 구현 -> 모바일 앱 연동까지 E2E 주도  
+- 예외 케이스 체계화로 사용자 흐름 Side Effect 최소화, DTO 분리로 JPA 순환 참조 해결  
+- OAuth 2.0(구글/카카오) + JWT 통합 인증, EncryptedSharedPreferences로 토큰 보관/자동 로그인  
+- record_id 파이프라인 및 회원탈퇴 트랜잭션 정리로 데이터 정합성 확보  
 ---
 
 ## 🧩 SKILL TREE
