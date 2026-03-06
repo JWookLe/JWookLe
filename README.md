@@ -7,7 +7,7 @@
 ┃  ▶ PRESS START                       ┃
 ┃  PLAYER : JWookLe                    ┃
 ┃  CLASS  : Backend Engineer           ┃
-┃  QUEST  : Build reliable systems     ┃
+┃  QUEST  : 키움페이 PG 웹 서비스 개발   ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
