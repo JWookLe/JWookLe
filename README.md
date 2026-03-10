@@ -95,5 +95,5 @@ Backend · Reliability · Performance · Automation · Architecture
 
 ## 🎮 ACTIVITY MAP
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JWookLe/JWookLe/main/profile/self-reported-activity.svg?v=d8d43f1" width="900" alt="activity progress bar" />
+  <img src="profile/self-reported-activity.svg" width="900" alt="activity progress bar" />
 </p>

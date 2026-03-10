@@ -1,71 +1,54 @@
 <svg width="960" height="250" viewBox="0 0 960 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Activity map timeline">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1220"/>
-      <stop offset="100%" stop-color="#111827"/>
-    </linearGradient>
-    <linearGradient id="dev" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
-    </linearGradient>
-    <style>
-      .title { fill: #e5e7eb; font: 700 20px "Consolas", "Courier New", monospace; letter-spacing: 1px; }
-      .sub { fill: #94a3b8; font: 11px "Consolas", "Courier New", monospace; }
-      .label { fill: #dbeafe; font: 600 12px "Consolas", "Courier New", monospace; }
-      .tick { fill: #94a3b8; font: 10px "Consolas", "Courier New", monospace; }
-      .devText { fill: #0b1220; font: 700 10px "Consolas", "Courier New", monospace; }
-      .restText { fill: #f1f5f9; font: 700 10px "Consolas", "Courier New", monospace; }
-      .track { fill: #1f2937; }
-      .rest { fill: #475569; }
-    </style>
-  </defs>
-
-  <rect x="0" y="0" width="960" height="250" rx="14" fill="url(#bg)"/>
-  <rect x="18" y="16" width="924" height="218" rx="10" fill="#0f172a" stroke="#1f2937" stroke-width="1.5"/>
-
-  <text class="title" x="42" y="45">ACTIVITY MAP</text>
-  <text class="sub" x="42" y="64">Development / Rest timeline</text>
-  <text class="sub" x="720" y="45">UPDATED 2026-03-10</text>
-  <text class="sub" x="720" y="64">TRACKING FROM 2025-12-09</text>
-
-  <rect class="track" x="72" y="108" width="816" height="30" rx="15"/>
-
-  <rect x="72" y="108" width="250" height="30" rx="15" fill="url(#dev)"/>
-  <text class="devText" x="197" y="127" text-anchor="middle">DEV</text>
-
-  <rect class="rest" x="322" y="108" width="110" height="30" rx="15"/>
-  <text class="restText" x="377" y="127" text-anchor="middle">REST</text>
-
-  <rect x="432" y="108" width="245" height="30" rx="15" fill="url(#dev)"/>
-  <text class="devText" x="554" y="127" text-anchor="middle">DEV</text>
-
-  <rect class="rest" x="677" y="108" width="75" height="30" rx="15"/>
-  <text class="restText" x="714" y="127" text-anchor="middle">REST</text>
-
-  <rect x="752" y="108" width="136" height="30" rx="15" fill="url(#dev)"/>
-  <text class="devText" x="820" y="127" text-anchor="middle">DEV</text>
-
-  <line x1="72" y1="144" x2="72" y2="158" stroke="#64748b" stroke-width="1"/>
-  <text class="tick" x="72" y="173" text-anchor="middle">2025-12-09</text>
-
-  <line x1="322" y1="144" x2="322" y2="158" stroke="#64748b" stroke-width="1"/>
-  <text class="tick" x="322" y="173" text-anchor="middle">2026-01-20</text>
-
-  <line x1="432" y1="144" x2="432" y2="158" stroke="#64748b" stroke-width="1"/>
-  <text class="tick" x="432" y="173" text-anchor="middle">2026-02-08</text>
-
-  <line x1="677" y1="144" x2="677" y2="158" stroke="#64748b" stroke-width="1"/>
-  <text class="tick" x="677" y="173" text-anchor="middle">2026-03-01</text>
-
-  <line x1="752" y1="144" x2="752" y2="158" stroke="#64748b" stroke-width="1"/>
-  <text class="tick" x="752" y="173" text-anchor="middle">2026-03-05</text>
-
-  <line x1="888" y1="144" x2="888" y2="158" stroke="#64748b" stroke-width="1"/>
-  <text class="tick" x="888" y="173" text-anchor="middle">NOW</text>
-
-  <text class="label" x="72" y="204">2025-12-09 ~ 2026-01-20 DEV</text>
-  <text class="label" x="352" y="204">| 2026-01-20 ~ 2026-02-08 REST</text>
-  <text class="label" x="72" y="222">2026-02-08 ~ 2026-03-01 DEV</text>
-  <text class="label" x="352" y="222">| 2026-03-01 ~ 2026-03-05 REST</text>
-  <text class="label" x="650" y="222">| 2026-03-05 ~ NOW DEV</text>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#0b1220"/>
+<stop offset="100%" stop-color="#111827"/>
+</linearGradient>
+<linearGradient id="dev" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#22d3ee"/>
+<stop offset="100%" stop-color="#38bdf8"/>
+</linearGradient>
+<style>
+.title { fill: #e5e7eb; font: 700 20px "Consolas", "Courier New", monospace; letter-spacing: 1px; }
+.sub { fill: #94a3b8; font: 11px "Consolas", "Courier New", monospace; }
+.label { fill: #dbeafe; font: 600 11px "Consolas", "Courier New", monospace; }
+.tick { fill: #94a3b8; font: 10px "Consolas", "Courier New", monospace; }
+.devText { fill: #0b1220; font: 700 10px "Consolas", "Courier New", monospace; }
+.restText { fill: #f1f5f9; font: 700 10px "Consolas", "Courier New", monospace; }
+.track { fill: #1f2937; }
+.rest { fill: #475569; }
+</style>
+</defs>
+<rect x="0" y="0" width="960" height="250" rx="14" fill="url(#bg)"/>
+<rect x="18" y="16" width="924" height="218" rx="10" fill="#0f172a" stroke="#1f2937" stroke-width="1.5"/>
+<text class="title" x="42" y="45">ACTIVITY MAP</text>
+<text class="sub" x="42" y="64">Based on GitHub contribution graph</text>
+<text class="sub" x="680" y="45">UPDATED 2026-03-10</text>
+<text class="sub" x="610" y="64">LAST 120D UNITS 27 / ACTIVE 27 (22.7%)</text>
+<rect class="track" x="72" y="108" width="816" height="30" rx="15"/>
+<rect x="72" y="108" width="185" height="30" rx="15" fill="url(#dev)"/>
+<text class="devText" x="164" y="127" text-anchor="middle">DEV</text>
+<rect x="257" y="108" width="336" height="30" rx="15" fill="#475569"/>
+<text class="restText" x="425" y="127" text-anchor="middle">REST</text>
+<rect x="593" y="108" width="82" height="30" rx="15" fill="url(#dev)"/>
+<text class="devText" x="634" y="127" text-anchor="middle">DEV</text>
+<rect x="675" y="108" width="179" height="30" rx="15" fill="#475569"/>
+<text class="restText" x="764" y="127" text-anchor="middle">REST</text>
+<rect x="854" y="108" width="34" height="30" rx="15" fill="url(#dev)"/>
+<line x1="72" y1="144" x2="72" y2="158" stroke="#64748b" stroke-width="1"/>
+<text class="tick" x="72" y="173" text-anchor="middle">2025-11-12</text>
+<line x1="257" y1="144" x2="257" y2="158" stroke="#64748b" stroke-width="1"/>
+<text class="tick" x="257" y="173" text-anchor="middle">2025-12-09</text>
+<line x1="593" y1="144" x2="593" y2="158" stroke="#64748b" stroke-width="1"/>
+<text class="tick" x="593" y="173" text-anchor="middle">2026-01-27</text>
+<line x1="675" y1="144" x2="675" y2="158" stroke="#64748b" stroke-width="1"/>
+<text class="tick" x="675" y="173" text-anchor="middle">2026-02-08</text>
+<line x1="854" y1="144" x2="854" y2="158" stroke="#64748b" stroke-width="1"/>
+<text class="tick" x="854" y="173" text-anchor="middle">2026-03-06</text>
+<line x1="888" y1="144" x2="888" y2="158" stroke="#64748b" stroke-width="1"/>
+<text class="tick" x="888" y="173" text-anchor="middle">NOW</text>
+<text class="label" x="72" y="204">2025-11-12 ~ 2025-12-08 DEV</text>
+<text class="label" x="72" y="222">2025-12-09 ~ 2026-01-26 REST</text>
+<text class="label" x="72" y="240">2026-03-06 ~ NOW DEV</text>
+<text class="label" x="560" y="222">@JWookLe contribution timeline</text>
 </svg>
