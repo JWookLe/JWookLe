@@ -174,8 +174,7 @@ def build_activity_segments(days):
     if not days:
         return [], None, None, 0
 
-    first_active_idx = next((i for i, item in enumerate(days) if item["count"] > 0), 0)
-    span = days[first_active_idx:]
+    span = days
     start_date = span[0]["date"]
     end_date = span[-1]["date"]
     active_days = sum(1 for item in span if item["count"] > 0)
