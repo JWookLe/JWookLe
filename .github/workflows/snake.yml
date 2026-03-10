@@ -25,7 +25,11 @@ jobs:
           github_user_name: JWookLe
           github_token: ${{ secrets.SNAKE_GITHUB_TOKEN != '' && secrets.SNAKE_GITHUB_TOKEN || github.token }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-light.svg?palette=github-light
+            dist/github-contribution-grid-snake-neon.svg?color_snake=%2322d3ee&color_dots=%230f172a,%2313346b,%2306b6d4,%2322d3ee,%2367e8f9
+            dist/github-contribution-grid-snake-neon.gif?color_snake=%23f59e0b&color_dots=%230f172a,%234c1d95,%23db2777,%23f97316,%23fde047
       - name: Publish to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:

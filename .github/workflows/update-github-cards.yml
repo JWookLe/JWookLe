@@ -33,7 +33,7 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git add profile/github-stats.svg profile/top-langs.svg profile/self-reported-activity.svg
+          git add profile/github-stats.svg profile/top-langs.svg
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0

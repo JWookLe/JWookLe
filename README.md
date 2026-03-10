@@ -86,11 +86,15 @@ Backend · Reliability · Performance · Automation · Architecture
 
 ---
 
-## 🎮 ACTIVITY MAP
+## 🐍 SNAKE ARCADE
 <p align="center">
-  <img src="profile/self-reported-activity.svg" width="900" alt="Self-reported activity timeline" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JWookLe/JWookLe/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JWookLe/JWookLe/output/github-contribution-grid-snake-light.svg" />
+    <img src="https://raw.githubusercontent.com/JWookLe/JWookLe/output/github-contribution-grid-snake.svg" alt="snake" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JWookLe/JWookLe/output/github-contribution-grid-snake.svg" alt="snake" />
+  <img src="https://raw.githubusercontent.com/JWookLe/JWookLe/output/github-contribution-grid-snake-neon.gif" alt="snake neon" />
 </p>
