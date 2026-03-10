@@ -1,31 +1,22 @@
-<svg width="960" height="250" viewBox="0 0 960 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Activity map progress bars">
+<svg width="960" height="250" viewBox="0 0 960 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Activity map timeline">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0b1220"/>
       <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="bar1" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="dev" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#22d3ee"/>
       <stop offset="100%" stop-color="#38bdf8"/>
-    </linearGradient>
-    <linearGradient id="bar2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#34d399"/>
-      <stop offset="100%" stop-color="#10b981"/>
-    </linearGradient>
-    <linearGradient id="bar3" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#f59e0b"/>
-      <stop offset="100%" stop-color="#f97316"/>
-    </linearGradient>
-    <linearGradient id="bar4" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#f472b6"/>
-      <stop offset="100%" stop-color="#db2777"/>
     </linearGradient>
     <style>
       .title { fill: #e5e7eb; font: 700 20px "Consolas", "Courier New", monospace; letter-spacing: 1px; }
       .sub { fill: #94a3b8; font: 11px "Consolas", "Courier New", monospace; }
       .label { fill: #dbeafe; font: 600 12px "Consolas", "Courier New", monospace; }
-      .pct { fill: #e2e8f0; font: 700 12px "Consolas", "Courier New", monospace; }
+      .tick { fill: #94a3b8; font: 10px "Consolas", "Courier New", monospace; }
+      .devText { fill: #0b1220; font: 700 10px "Consolas", "Courier New", monospace; }
+      .restText { fill: #f1f5f9; font: 700 10px "Consolas", "Courier New", monospace; }
       .track { fill: #1f2937; }
+      .rest { fill: #475569; }
     </style>
   </defs>
 
@@ -33,27 +24,48 @@
   <rect x="18" y="16" width="924" height="218" rx="10" fill="#0f172a" stroke="#1f2937" stroke-width="1.5"/>
 
   <text class="title" x="42" y="45">ACTIVITY MAP</text>
-  <text class="sub" x="42" y="64">Self-reported progress bars</text>
-  <text class="sub" x="730" y="45">UPDATED 2026-03-10</text>
-  <text class="sub" x="730" y="64">STATUS: ACTIVE</text>
+  <text class="sub" x="42" y="64">Development / Rest timeline</text>
+  <text class="sub" x="720" y="45">UPDATED 2026-03-10</text>
+  <text class="sub" x="720" y="64">TRACKING FROM 2025-12-09</text>
 
-  <text class="label" x="42" y="102">FOUNDATION (2024 H2)</text>
-  <rect class="track" x="300" y="88" width="580" height="20" rx="10"/>
-  <rect x="300" y="88" width="568" height="20" rx="10" fill="url(#bar1)"/>
-  <text class="pct" x="890" y="103" text-anchor="end">98%</text>
+  <rect class="track" x="72" y="108" width="816" height="30" rx="15"/>
 
-  <text class="label" x="42" y="137">RELIABILITY (2025 H1)</text>
-  <rect class="track" x="300" y="123" width="580" height="20" rx="10"/>
-  <rect x="300" y="123" width="499" height="20" rx="10" fill="url(#bar2)"/>
-  <text class="pct" x="890" y="138" text-anchor="end">86%</text>
+  <rect x="72" y="108" width="250" height="30" rx="15" fill="url(#dev)"/>
+  <text class="devText" x="197" y="127" text-anchor="middle">DEV</text>
 
-  <text class="label" x="42" y="172">PAYMENT PLATFORM (2025 H2)</text>
-  <rect class="track" x="300" y="158" width="580" height="20" rx="10"/>
-  <rect x="300" y="158" width="441" height="20" rx="10" fill="url(#bar3)"/>
-  <text class="pct" x="890" y="173" text-anchor="end">76%</text>
+  <rect class="rest" x="322" y="108" width="110" height="30" rx="15"/>
+  <text class="restText" x="377" y="127" text-anchor="middle">REST</text>
 
-  <text class="label" x="42" y="207">KIWOOMPAY PG WEB (2026)</text>
-  <rect class="track" x="300" y="193" width="580" height="20" rx="10"/>
-  <rect x="300" y="193" width="261" height="20" rx="10" fill="url(#bar4)"/>
-  <text class="pct" x="890" y="208" text-anchor="end">45%</text>
+  <rect x="432" y="108" width="245" height="30" rx="15" fill="url(#dev)"/>
+  <text class="devText" x="554" y="127" text-anchor="middle">DEV</text>
+
+  <rect class="rest" x="677" y="108" width="75" height="30" rx="15"/>
+  <text class="restText" x="714" y="127" text-anchor="middle">REST</text>
+
+  <rect x="752" y="108" width="136" height="30" rx="15" fill="url(#dev)"/>
+  <text class="devText" x="820" y="127" text-anchor="middle">DEV</text>
+
+  <line x1="72" y1="144" x2="72" y2="158" stroke="#64748b" stroke-width="1"/>
+  <text class="tick" x="72" y="173" text-anchor="middle">2025-12-09</text>
+
+  <line x1="322" y1="144" x2="322" y2="158" stroke="#64748b" stroke-width="1"/>
+  <text class="tick" x="322" y="173" text-anchor="middle">2026-01-20</text>
+
+  <line x1="432" y1="144" x2="432" y2="158" stroke="#64748b" stroke-width="1"/>
+  <text class="tick" x="432" y="173" text-anchor="middle">2026-02-08</text>
+
+  <line x1="677" y1="144" x2="677" y2="158" stroke="#64748b" stroke-width="1"/>
+  <text class="tick" x="677" y="173" text-anchor="middle">2026-03-01</text>
+
+  <line x1="752" y1="144" x2="752" y2="158" stroke="#64748b" stroke-width="1"/>
+  <text class="tick" x="752" y="173" text-anchor="middle">2026-03-05</text>
+
+  <line x1="888" y1="144" x2="888" y2="158" stroke="#64748b" stroke-width="1"/>
+  <text class="tick" x="888" y="173" text-anchor="middle">NOW</text>
+
+  <text class="label" x="72" y="204">2025-12-09 ~ 2026-01-20 DEV</text>
+  <text class="label" x="352" y="204">| 2026-01-20 ~ 2026-02-08 REST</text>
+  <text class="label" x="72" y="222">2026-02-08 ~ 2026-03-01 DEV</text>
+  <text class="label" x="352" y="222">| 2026-03-01 ~ 2026-03-05 REST</text>
+  <text class="label" x="650" y="222">| 2026-03-05 ~ NOW DEV</text>
 </svg>
