@@ -1,3 +1,4 @@
+import calendar
 import datetime
 import html
 import json
@@ -161,6 +162,14 @@ def day_count(start_date, end_date):
     return (end_date - start_date).days + 1
 
 
+def shift_months(date_obj, months):
+    month_index = (date_obj.year * 12 + (date_obj.month - 1)) + months
+    year = month_index // 12
+    month = (month_index % 12) + 1
+    day = min(date_obj.day, calendar.monthrange(year, month)[1])
+    return datetime.date(year, month, day)
+
+
 def build_activity_segments(days):
     if not days:
         return [], None, None, 0
@@ -212,10 +221,10 @@ def render_activity_svg(user, days, updated):
     track_y = 108
     track_w = 816
     track_h = 30
-    window_days = 120
+    window_months = 6
 
     if days:
-        cutoff = days[-1]["date"] - datetime.timedelta(days=window_days - 1)
+        cutoff = shift_months(days[-1]["date"], -window_months)
         days = [item for item in days if item["date"] >= cutoff]
 
     raw_segments, start_date, end_date, active_days = build_activity_segments(days)
@@ -271,7 +280,7 @@ def render_activity_svg(user, days, updated):
         '<text class="title" x="42" y="45">ACTIVITY MAP</text>',
         '<text class="sub" x="42" y="64">Based on GitHub contribution graph</text>',
         f'<text class="sub" x="680" y="45">UPDATED {esc(updated)}</text>',
-        f'<text class="sub" x="610" y="64">LAST {window_days}D UNITS {window_contributions} / ACTIVE {active_days} ({active_ratio:.1f}%)</text>',
+        f'<text class="sub" x="610" y="64">LAST {window_months}M UNITS {window_contributions} / ACTIVE {active_days} ({active_ratio:.1f}%)</text>',
         f'<rect class="track" x="{track_x}" y="{track_y}" width="{track_w}" height="{track_h}" rx="15"/>',
     ]
 
