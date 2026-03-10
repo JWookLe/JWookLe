@@ -2,7 +2,7 @@
 <rect x="0.5" y="0.5" width="494" height="164" rx="8" fill="#1a1b27" stroke="#30364a"/>
 <text x="20" y="30" fill="#c0caf5" font-size="18" font-family="Segoe UI, Arial, sans-serif">Top Languages</text>
 <text x="20" y="60" fill="#a9b1d6" font-size="12" font-family="Segoe UI, Arial, sans-serif">Java</text>
-<text x="120" y="60" fill="#7aa2f7" font-size="12" font-family="Segoe UI, Arial, sans-serif">83.6%</text>
+<text x="120" y="60" fill="#7aa2f7" font-size="12" font-family="Segoe UI, Arial, sans-serif">83.5%</text>
 <rect x="170" y="53" width="290" height="8" rx="4" fill="#2a2e3f"/>
 <rect x="170" y="53" width="242" height="8" rx="4" fill="#9ece6a"/>
 <text x="20" y="80" fill="#a9b1d6" font-size="12" font-family="Segoe UI, Arial, sans-serif">Python</text>
