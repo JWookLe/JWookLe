@@ -1,14 +1,19 @@
 name: Update GitHub Cards
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   update-cards:
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -28,7 +33,7 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git add profile/github-stats.svg profile/top-langs.svg
+          git add profile/github-stats.svg profile/top-langs.svg profile/self-reported-activity.svg
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
