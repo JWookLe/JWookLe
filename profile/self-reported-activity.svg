@@ -24,7 +24,7 @@
 <text class="title" x="42" y="45">ACTIVITY MAP</text>
 <text class="sub" x="42" y="64">Based on GitHub contribution graph</text>
 <text class="sub" x="680" y="45">UPDATED 2026-03-10</text>
-<text class="sub" x="610" y="64">LAST 6M UNITS 49 / ACTIVE 49 (26.9%)</text>
+<text class="sub" x="610" y="64">LAST 6M UNITS 546 / ACTIVE 49 (26.9%)</text>
 <rect class="track" x="72" y="108" width="816" height="30" rx="15"/>
 <rect x="72" y="108" width="31" height="30" rx="15" fill="#475569"/>
 <rect x="103" y="108" width="63" height="30" rx="15" fill="url(#dev)"/>
