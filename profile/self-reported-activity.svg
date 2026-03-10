@@ -1,0 +1,59 @@
+<svg width="960" height="250" viewBox="0 0 960 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Activity map progress bars">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="bar4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+    <style>
+      .title { fill: #e5e7eb; font: 700 20px "Consolas", "Courier New", monospace; letter-spacing: 1px; }
+      .sub { fill: #94a3b8; font: 11px "Consolas", "Courier New", monospace; }
+      .label { fill: #dbeafe; font: 600 12px "Consolas", "Courier New", monospace; }
+      .pct { fill: #e2e8f0; font: 700 12px "Consolas", "Courier New", monospace; }
+      .track { fill: #1f2937; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="250" rx="14" fill="url(#bg)"/>
+  <rect x="18" y="16" width="924" height="218" rx="10" fill="#0f172a" stroke="#1f2937" stroke-width="1.5"/>
+
+  <text class="title" x="42" y="45">ACTIVITY MAP</text>
+  <text class="sub" x="42" y="64">Self-reported progress bars</text>
+  <text class="sub" x="730" y="45">UPDATED 2026-03-10</text>
+  <text class="sub" x="730" y="64">STATUS: ACTIVE</text>
+
+  <text class="label" x="42" y="102">FOUNDATION (2024 H2)</text>
+  <rect class="track" x="300" y="88" width="580" height="20" rx="10"/>
+  <rect x="300" y="88" width="568" height="20" rx="10" fill="url(#bar1)"/>
+  <text class="pct" x="890" y="103" text-anchor="end">98%</text>
+
+  <text class="label" x="42" y="137">RELIABILITY (2025 H1)</text>
+  <rect class="track" x="300" y="123" width="580" height="20" rx="10"/>
+  <rect x="300" y="123" width="499" height="20" rx="10" fill="url(#bar2)"/>
+  <text class="pct" x="890" y="138" text-anchor="end">86%</text>
+
+  <text class="label" x="42" y="172">PAYMENT PLATFORM (2025 H2)</text>
+  <rect class="track" x="300" y="158" width="580" height="20" rx="10"/>
+  <rect x="300" y="158" width="441" height="20" rx="10" fill="url(#bar3)"/>
+  <text class="pct" x="890" y="173" text-anchor="end">76%</text>
+
+  <text class="label" x="42" y="207">KIWOOMPAY PG WEB (2026)</text>
+  <rect class="track" x="300" y="193" width="580" height="20" rx="10"/>
+  <rect x="300" y="193" width="261" height="20" rx="10" fill="url(#bar4)"/>
+  <text class="pct" x="890" y="208" text-anchor="end">45%</text>
+</svg>

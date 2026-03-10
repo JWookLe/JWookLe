@@ -91,6 +91,9 @@ Backend · Reliability · Performance · Automation · Architecture
   <img src="https://raw.githubusercontent.com/JWookLe/JWookLe/output/github-contribution-grid-snake-dark.svg" alt="snake dark" />
 </p>
 
+---
+
+## 🎮 ACTIVITY MAP
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JWookLe/JWookLe/output/github-contribution-grid-snake-neon.gif" alt="snake neon" />
+  <img src="profile/self-reported-activity.svg" width="900" alt="activity progress bar" />
 </p>
