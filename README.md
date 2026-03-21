@@ -47,7 +47,7 @@ Backend · Reliability · Performance · Automation · Architecture
 - **Backend**: Java, Spring Boot, Spring Security, Spring Data JPA, Spring Cloud  
 - **Data**: MariaDB (Sharding), Redis (Cache/Rate Limit), Kafka  
 - **Infra/Ops**: Docker, Jenkins, Prometheus, Grafana, K6  
-- **AI Integration**: Flask, TensorFlow/Keras  
+- **AI Integration**: Flask, TensorFlow/Keras, Claude
 
 ---
 
