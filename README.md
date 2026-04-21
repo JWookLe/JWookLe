@@ -69,6 +69,7 @@ Backend · Reliability · Performance · Automation · Architecture
 - 정보처리기사  
 - SQLD  
 - 프로그래머스 코딩테스트 (Python3) 935/1000, Lv.5 (2025-10-01)
+- DaouData 인턴
 
 ---
 
