@@ -6,8 +6,8 @@
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃  ▶ PRESS START                       ┃
 ┃  PLAYER : JWookLe                    ┃
-┃  CLASS  : Backend Engineer           ┃
-┃  QUEST  : 키움페이 PG 웹 서비스 개발   ┃
+┃  CLASS  : Web Backend Engineer       ┃
+┃  QUEST  : 키움페이 PG 웹 서비스 개발 ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
