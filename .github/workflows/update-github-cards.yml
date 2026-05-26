@@ -1,11 +1,8 @@
 name: Update GitHub Cards
 
 on:
-  push:
-    branches:
-      - main
   schedule:
-    - cron: '0 * * * *'
+    - cron: '10 18 * * *'
   workflow_dispatch:
 
 permissions:
@@ -13,7 +10,6 @@ permissions:
 
 jobs:
   update-cards:
-    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
