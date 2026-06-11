@@ -23,32 +23,32 @@
 <rect x="18" y="16" width="924" height="218" rx="10" fill="#0f172a" stroke="#1f2937" stroke-width="1.5"/>
 <text class="title" x="42" y="45">ACTIVITY MAP</text>
 <text class="sub" x="42" y="64">Based on GitHub contribution graph</text>
-<text class="sub" x="680" y="45">UPDATED 2026-06-10</text>
+<text class="sub" x="680" y="45">UPDATED 2026-06-11</text>
 <text class="sub" x="610" y="64">LAST 6M UNITS 37 / ACTIVE 8 (4.4%)</text>
 <rect class="track" x="72" y="108" width="816" height="30" rx="15"/>
-<rect x="72" y="108" width="214" height="30" rx="15" fill="#475569"/>
-<text class="restText" x="179" y="127" text-anchor="middle">REST</text>
-<rect x="286" y="108" width="54" height="30" rx="15" fill="url(#dev)"/>
-<text class="devText" x="313" y="127" text-anchor="middle">DEV</text>
-<rect x="340" y="108" width="115" height="30" rx="15" fill="#475569"/>
-<text class="restText" x="397" y="127" text-anchor="middle">REST</text>
-<rect x="455" y="108" width="23" height="30" rx="15" fill="url(#dev)"/>
-<rect x="478" y="108" width="339" height="30" rx="15" fill="#475569"/>
-<text class="restText" x="647" y="127" text-anchor="middle">REST</text>
-<rect x="817" y="108" width="4" height="30" rx="15" fill="url(#dev)"/>
-<rect x="821" y="108" width="67" height="30" rx="15" fill="#475569"/>
-<text class="restText" x="854" y="127" text-anchor="middle">REST</text>
+<rect x="72" y="108" width="210" height="30" rx="15" fill="#475569"/>
+<text class="restText" x="177" y="127" text-anchor="middle">REST</text>
+<rect x="282" y="108" width="53" height="30" rx="15" fill="url(#dev)"/>
+<text class="devText" x="308" y="127" text-anchor="middle">DEV</text>
+<rect x="335" y="108" width="116" height="30" rx="15" fill="#475569"/>
+<text class="restText" x="393" y="127" text-anchor="middle">REST</text>
+<rect x="451" y="108" width="22" height="30" rx="15" fill="url(#dev)"/>
+<rect x="473" y="108" width="339" height="30" rx="15" fill="#475569"/>
+<text class="restText" x="642" y="127" text-anchor="middle">REST</text>
+<rect x="812" y="108" width="5" height="30" rx="15" fill="url(#dev)"/>
+<rect x="817" y="108" width="71" height="30" rx="15" fill="#475569"/>
+<text class="restText" x="852" y="127" text-anchor="middle">REST</text>
 <line x1="72" y1="144" x2="72" y2="158" stroke="#64748b" stroke-width="1"/>
-<text class="tick" x="72" y="173" text-anchor="middle">2025-12-10</text>
-<line x1="286" y1="144" x2="286" y2="158" stroke="#64748b" stroke-width="1"/>
-<text class="tick" x="286" y="173" text-anchor="middle">2026-01-27</text>
-<line x1="455" y1="144" x2="455" y2="158" stroke="#64748b" stroke-width="1"/>
-<text class="tick" x="455" y="173" text-anchor="middle">2026-03-06</text>
-<line x1="817" y1="144" x2="817" y2="158" stroke="#64748b" stroke-width="1"/>
-<text class="tick" x="817" y="173" text-anchor="middle">2026-05-26</text>
+<text class="tick" x="72" y="173" text-anchor="middle">2025-12-11</text>
+<line x1="282" y1="144" x2="282" y2="158" stroke="#64748b" stroke-width="1"/>
+<text class="tick" x="282" y="173" text-anchor="middle">2026-01-27</text>
+<line x1="451" y1="144" x2="451" y2="158" stroke="#64748b" stroke-width="1"/>
+<text class="tick" x="451" y="173" text-anchor="middle">2026-03-06</text>
+<line x1="812" y1="144" x2="812" y2="158" stroke="#64748b" stroke-width="1"/>
+<text class="tick" x="812" y="173" text-anchor="middle">2026-05-26</text>
 <line x1="888" y1="144" x2="888" y2="158" stroke="#64748b" stroke-width="1"/>
 <text class="tick" x="888" y="173" text-anchor="middle">NOW</text>
-<text class="label" x="72" y="204">2025-12-10 ~ 2026-01-26 REST</text>
+<text class="label" x="72" y="204">2025-12-11 ~ 2026-01-26 REST</text>
 <text class="label" x="72" y="222">2026-01-27 ~ 2026-02-07 DEV</text>
 <text class="label" x="72" y="240">2026-05-27 ~ NOW REST</text>
 <text class="label" x="560" y="222">@JWookLe contribution timeline</text>
