@@ -23,24 +23,23 @@
 <rect x="18" y="16" width="924" height="218" rx="10" fill="#0f172a" stroke="#1f2937" stroke-width="1.5"/>
 <text class="title" x="42" y="45">ACTIVITY MAP</text>
 <text class="sub" x="42" y="64">Based on GitHub contribution graph</text>
-<text class="sub" x="680" y="45">UPDATED 2026-08-23</text>
+<text class="sub" x="680" y="45">UPDATED 2026-08-24</text>
 <text class="sub" x="610" y="64">LAST 6M UNITS 13 / ACTIVE 3 (1.6%)</text>
 <rect class="track" x="72" y="108" width="816" height="30" rx="15"/>
-<rect x="72" y="108" width="49" height="30" rx="15" fill="#475569"/>
-<text class="restText" x="96" y="127" text-anchor="middle">REST</text>
-<rect x="121" y="108" width="23" height="30" rx="15" fill="url(#dev)"/>
-<rect x="144" y="108" width="340" height="30" rx="15" fill="#475569"/>
-<text class="restText" x="314" y="127" text-anchor="middle">REST</text>
-<rect x="484" y="108" width="5" height="30" rx="15" fill="url(#dev)"/>
-<rect x="489" y="108" width="399" height="30" rx="15" fill="#475569"/>
-<text class="restText" x="688" y="127" text-anchor="middle">REST</text>
+<rect x="72" y="108" width="45" height="30" rx="15" fill="#475569"/>
+<rect x="117" y="108" width="22" height="30" rx="15" fill="url(#dev)"/>
+<rect x="139" y="108" width="341" height="30" rx="15" fill="#475569"/>
+<text class="restText" x="309" y="127" text-anchor="middle">REST</text>
+<rect x="480" y="108" width="4" height="30" rx="15" fill="url(#dev)"/>
+<rect x="484" y="108" width="404" height="30" rx="15" fill="#475569"/>
+<text class="restText" x="686" y="127" text-anchor="middle">REST</text>
 <line x1="72" y1="144" x2="72" y2="158" stroke="#64748b" stroke-width="1"/>
-<text class="tick" x="72" y="173" text-anchor="middle">2026-02-23</text>
-<line x1="484" y1="144" x2="484" y2="158" stroke="#64748b" stroke-width="1"/>
-<text class="tick" x="484" y="173" text-anchor="middle">2026-05-26</text>
+<text class="tick" x="72" y="173" text-anchor="middle">2026-02-24</text>
+<line x1="480" y1="144" x2="480" y2="158" stroke="#64748b" stroke-width="1"/>
+<text class="tick" x="480" y="173" text-anchor="middle">2026-05-26</text>
 <line x1="888" y1="144" x2="888" y2="158" stroke="#64748b" stroke-width="1"/>
 <text class="tick" x="888" y="173" text-anchor="middle">NOW</text>
-<text class="label" x="72" y="204">2026-02-23 ~ 2026-03-05 REST</text>
+<text class="label" x="72" y="204">2026-02-24 ~ 2026-03-05 REST</text>
 <text class="label" x="72" y="222">2026-03-06 ~ 2026-03-10 DEV</text>
 <text class="label" x="72" y="240">2026-05-27 ~ NOW REST</text>
 <text class="label" x="560" y="222">@JWookLe contribution timeline</text>
