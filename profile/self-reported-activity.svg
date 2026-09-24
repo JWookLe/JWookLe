@@ -23,21 +23,21 @@
 <rect x="18" y="16" width="924" height="218" rx="10" fill="#0f172a" stroke="#1f2937" stroke-width="1.5"/>
 <text class="title" x="42" y="45">ACTIVITY MAP</text>
 <text class="sub" x="42" y="64">Based on GitHub contribution graph</text>
-<text class="sub" x="680" y="45">UPDATED 2026-09-23</text>
+<text class="sub" x="680" y="45">UPDATED 2026-09-24</text>
 <text class="sub" x="610" y="64">LAST 6M UNITS 2 / ACTIVE 1 (0.5%)</text>
 <rect class="track" x="72" y="108" width="816" height="30" rx="15"/>
-<rect x="72" y="108" width="282" height="30" rx="15" fill="#475569"/>
-<text class="restText" x="213" y="127" text-anchor="middle">REST</text>
-<rect x="354" y="108" width="5" height="30" rx="15" fill="url(#dev)"/>
-<rect x="359" y="108" width="529" height="30" rx="15" fill="#475569"/>
-<text class="restText" x="623" y="127" text-anchor="middle">REST</text>
+<rect x="72" y="108" width="278" height="30" rx="15" fill="#475569"/>
+<text class="restText" x="211" y="127" text-anchor="middle">REST</text>
+<rect x="350" y="108" width="4" height="30" rx="15" fill="url(#dev)"/>
+<rect x="354" y="108" width="534" height="30" rx="15" fill="#475569"/>
+<text class="restText" x="621" y="127" text-anchor="middle">REST</text>
 <line x1="72" y1="144" x2="72" y2="158" stroke="#64748b" stroke-width="1"/>
-<text class="tick" x="72" y="173" text-anchor="middle">2026-03-23</text>
-<line x1="354" y1="144" x2="354" y2="158" stroke="#64748b" stroke-width="1"/>
-<text class="tick" x="354" y="173" text-anchor="middle">2026-05-26</text>
+<text class="tick" x="72" y="173" text-anchor="middle">2026-03-24</text>
+<line x1="350" y1="144" x2="350" y2="158" stroke="#64748b" stroke-width="1"/>
+<text class="tick" x="350" y="173" text-anchor="middle">2026-05-26</text>
 <line x1="888" y1="144" x2="888" y2="158" stroke="#64748b" stroke-width="1"/>
 <text class="tick" x="888" y="173" text-anchor="middle">NOW</text>
-<text class="label" x="72" y="204">2026-03-23 ~ 2026-05-25 REST</text>
+<text class="label" x="72" y="204">2026-03-24 ~ 2026-05-25 REST</text>
 <text class="label" x="72" y="222">2026-05-26 ~ 2026-05-26 DEV</text>
 <text class="label" x="72" y="240">2026-05-27 ~ NOW REST</text>
 <text class="label" x="560" y="222">@JWookLe contribution timeline</text>
